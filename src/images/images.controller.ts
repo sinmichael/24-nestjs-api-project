@@ -10,10 +10,9 @@ import {
   Post,
   Delete,
 } from '@nestjs/common';
-import { ApiBody, ApiOperation, ApiQuery } from '@nestjs/swagger';
+import { ApiOperation, ApiQuery } from '@nestjs/swagger';
 import { ACGuard, UseRoles } from 'nest-access-control';
 import { CustomAuthGuard } from 'src/auth/custom-auth.guard';
-import { CreateUserDto } from 'src/users/dto/create-user.dto';
 import { CreateImageDto } from './dto/create-image.dto';
 import { UpdateImageDto } from './dto/update-image.dto';
 import { ImagesService } from './images.service';
