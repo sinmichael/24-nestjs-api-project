@@ -11,7 +11,6 @@ export class AuthCredentialsDto {
   @ApiProperty({
     description: "User's email address",
   })
-  @IsString()
   @IsEmail()
   emailAddress: string;
 
