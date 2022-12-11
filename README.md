@@ -1,5 +1,10 @@
 # NestJS API Backend 24 Hours Code Challenge
 
+## Demo
+
+Hosted using Railway\
+[https://24-nestjs-api-project-production.up.railway.app/api/](https://24-nestjs-api-project-production.up.railway.app/api/)
+
 ## Installation
 
 ```bash
@@ -34,7 +39,8 @@ SENDGRID_VERIFIED_SENDER=
 ```
 
 ## API Documentation
-Once the server is running, you can view the documentation by going to `http://localhost:port/api`
+Once the server is running, you can view the documentation by going to `http://localhost:port/api`\
+You can also view the [documentation here](https://24-nestjs-api-project-production.up.railway.app/api/) hosted on Railway
 
 ## Running the app
 
