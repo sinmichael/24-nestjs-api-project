@@ -28,7 +28,7 @@ export class ImagesService {
 
   async generateImages(limit: number, user: any) {
     const data = await this.getRandomImages(limit, user);
-    return { limit: limit, data: data };
+    return { limit: limit === undefined ? 5 : +limit, data: data };
   }
 
   /**
