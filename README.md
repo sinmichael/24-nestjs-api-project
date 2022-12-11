@@ -55,6 +55,10 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## To-do
+- Ability to add custom roles and grants
+- Unit tests
+
 ## Third-party services used
 
 [Cloudinary](https://cloudinary.com) - for storing images
